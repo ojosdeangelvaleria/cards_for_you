@@ -7,7 +7,7 @@
 
 body {
 	background: #f6f9ff;
-	height: 100vh;
+	height: auto;
 	width:  100%;
 	display: flex;
 	justify-content: center;
@@ -89,9 +89,6 @@ main.cards section.card button {
 		margin-bottom: 0;
 	}
 
-	main.cards section.card buttom {
-
-	}
 }
 
 h3 {
