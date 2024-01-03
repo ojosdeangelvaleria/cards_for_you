@@ -28,7 +28,7 @@ main.cards section.card {
 	background: white;
 	padding: 1rem 1.5rem;
 	border-radius: 8px;
-	max-height: 468px;
+	max-height: auto;
 	margin-left: 32px;
 	box-shadow: 20px 20px 50px -30px #dbc4ff;
 }
