@@ -47,15 +47,30 @@ main.cards section.card img {
 }
 
 main.cards section.card h3 {
-	font-size: 100%;
-	margin: 16px 0;
+    font-size: 1.5rem; /* Ajusta el tamaño de fuente */
+    margin: 1rem 0; /* Ajusta el margen */
 }
 
 main.cards section.card span {
-	font-weight: 300;
-	max-width: 240px;
-	font-size: 80%;
-	margin-bottom: 16px;
+    font-size: 1rem; /* Ajusta el tamaño de fuente */
+    max-width: 100%; /* Ajusta el ancho máximo */
+    margin-bottom: 1rem; /* Ajusta el margen */
+}
+
+/* Media query para pantallas más pequeñas */
+@media screen and (max-width: 768px) {
+    main.cards section.card {
+        padding: 0.5rem 1rem; /* Ajusta el padding */
+        margin-bottom: 1rem; /* Ajusta el margen */
+    }
+
+    main.cards section.card h3 {
+        font-size: 1.2rem; /* Reducir el tamaño de fuente en pantallas más pequeñas */
+    }
+
+    main.cards section.card span {
+        font-size: 0.9rem; /* Reducir el tamaño de fuente en pantallas más pequeñas */
+    }
 }
 
 main.cards section.card button {
